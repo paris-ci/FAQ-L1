@@ -1,0 +1,161 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../static/style.css">
+<title>Vos etudes — FAQ L1</title>
+<body>
+  <header>
+    <h1>FAQ L1</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../">Accueil</a></li>
+        
+          <li><a href="../vie-etudiante/">La vie étudiante</a></li>
+        
+          <li class="active"><a href="../vos-etudes/">Vos études</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    
+  <h2>Vos etudes</h2>
+  <h3>Les travaux de groupe</h3>
+<p>Le gros sujet, surtout au début avec le projet Charpak, et au S2&amp;S3, l'APP (Apprentissage par projets)</p>
+<h4>Comment ne pas se taper dessus ?</h4>
+<p>Je commence par la, car c'est la question qui va vous être indispensable! Première chose, je ne pense pas qu'il soit vraiment possible de finir un APP, ou un projet Charpak, sans avoir des <em>périodes</em> de désaccord. Le principal est de savoir les gérer. Pour cela, quelques astuces :</p>
+<ul>
+<li>Rappelez-vous que vous avez tous un objectif commun : faire avancer le projet de la meilleure façon possible.</li>
+<li>Si votre désaccord concerne quelque chose de plutôt matériel, je pense que l'idéal est de prendre deux minutes pour que chacun résume, à l'écrit, les avantages et inconvénients de sa méthode préférée. Après ça, comparez entre vous et décidez objectivement du meilleur point de vue à adopter.</li>
+<li>Si le désaccord existe toujours, allez voir une personne ou deux extérieures au groupe pour trancher.</li>
+<li><strong>Toute engeulade doit restée confinée dans le cadre du projet</strong>, si vous n’êtes pas en projet, pas de raisons de s'énerver entre vous.</li>
+<li>N'hésitez pas à faire appel à vos enseignants pour régler des désaccords techniques</li>
+</ul>
+<h4>Comment être le plus productif possible ?</h4>
+<p>Quelques règles et astuces :</p>
+<ul>
+<li>Si le projet dure quelques jours ou plus, il peut être vraiment cool d'avoir un moyen simple de communiquer entre vous : SMS groupés, Discord, Messenger, Slack, Skype,... Ce ne sont pas les logiciels qui manquent, mais ils vous permettent tous de garder une trace des choses qui se sont dites, et ainsi d'éviter de vous répéter.</li>
+<li>Si possible, une personne qui se charge de gérer les échelons, les objectifs et la progression (ça prends pas longtemps) et de rappeler gentiment aux autres les choses à faire, ca permet vraiment de s’apercevoir tôt des étapes loupées ou bâclées, pour y revenir plus tard.</li>
+<li>Si vous parlez à quelqu'un d’extérieur au groupe (Notamment après un diapo), un bout de papier, un stylo et <strong>prenez des notes</strong>!</li>
+<li>La ponctualité de tous les membres du groupe est indispensable. Un petit rappel des horaires dans le chat de groupe ("N'oubliez pas demain, RDV a 8h45 en C3, venez tous avec l'introduction de votre partie et les points essentiels à ajouter au diapo") ne fera jamais de mal (CF gérer les échelons)</li>
+</ul>
+<h4>Quels outils utiliser lors d'un travail en groupe ?</h4>
+<ul>
+<li>Utilisez des outils du style <a href="https://trello.com">Trello</a> pour que chacun voit ce qui lui reste à faire, et garder un œil sur les deadlines</li>
+<li>Comme mentionné précédemment, je recommande vraiment <a href="https://discordapp.com/">Discord</a> pour causer entre vous!</li>
+<li>Au sujet de l'édition collaborative, voici un tableau qui récapitule les choix disponibles, à vous de choisir ce qui vous semble le plus approprié</li>
+</ul>
+<p><img src="../vos-etudes/comparaison-ecriture.png" alt="LaTeX, j&#39;aime vraiment, mais les autres trouvent ca dur :("></p>
+<h4>Autre chose ?</h4>
+<p>Le sujet qui fâche : les emplois du temps. Il n'est pas impossible (ça c'est déjà vu, <em>tousse, tousse</em>) que les crénaux inscrits à l'emploi du temps ne soient pas respectés : si vous n'avez pas de chance et que vous etes le dernier groupe à passer sur un oral important (APP, je pense à toi), que la fin du créneau est à 16h, comptez pas partir avant 18-20h :/</p>
+<p>Je sais, çà fait mal.</p>
+<h4>La ponctualité ?</h4>
+<p>Soyez ponctuels. Rien de spécial à dire la dessus, mais si Martine dit Lundi 23h59, Martine sera devant ses mails à cette heure là (Martine ne dors jamais)</p>
+<h3>Les logiciels indispensables</h3>
+<p>Voir aussi au dessus pour "Quels outils utiliser lors d'un travail en groupe ?"</p>
+<h4>Comment gérer une bibliographie ?</h4>
+<ul>
+<li>Pour trouver des articles scientifiques : <a href="https://scholar.google.fr/">Google Scholar</a></li>
+<li>Pour avoir accès (facilement) au PDF des articles (sans payer, oui c'est illégal mais tout le monde le fait) : <a href="https://whereisscihub.now.sh/">Sci-Hub</a> (lien direct : <a href="https://whereisscihub.now.sh/go">https://whereisscihub.now.sh/go</a>) ou <a href="https://arxiv.org/">arXiv</a>, accessible depuis Scholar</li>
+<li>Et pour les livres et autres cours <a href="http://gen.lib.rus.ec/">LibGen</a></li>
+<li>Balancez tous vos PDFs dans <a href="https://www.mendeley.com/">Mendeley</a> et laissez le vous générer la bibliographie</li>
+</ul>
+<p>N'oubliez pas, vérifiez la crédibilité de vos articles avant de citer!</p>
+<p>Pour info, dans un document LaTeX, la config que j'utilisais était</p>
+<pre><code>\usepackage[style=authoryear-ibid, doi=false, isbn=false, url=false]{biblatex} % Bibliographie
+\addbibresource{citations.bib}
+
+% [...]
+Texte avec citation : \parencite{Yang2015}
+
+% [...]
+\printbibliography
+</code></pre>
+<h4>Gérer ses cours ?</h4>
+<p>Pensez à utilisez une application pour lire vos mails (surtout histoire d'avoir la notif pour les changements tardifs et les explications) : vos mails Zimbra peuvent êtres transférés vers gmail</p>
+<p>Utilisez un bon réveil (je recommande <a href="https://play.google.com/store/apps/details?id=com.urbandroid.sleep">celui-ci (Android)</a>) et placez vos emplois du temps sur <a href="https://calendar.google.com/calendar/r">Google Agenda</a></p>
+<p>J'aime bien aussi avoir la liste des devoirs dans un <a href="https://trello.com/">Trello</a> personnel, en plusieurs colonnes :</p>
+<ul>
+<li>Interros</li>
+<li>Devoirs à faire</li>
+<li>En cours</li>
+<li>Fait</li>
+<li>Rendu</li>
+<li>Archives/Passé/Noté</li>
+</ul>
+<p>Dans le meilleur des mondes, vous n'en aurez pas besoin, mais les MCC (voir sur dokéos) peuvent vous aidez pour savoir ou vous en êtes.</p>
+<p>De loin le plus important, ce site <a href="http://www.retourdemartine.free.fr/create.php">la</a> pour se moquer un peu de l'équipe enseignante, ça fait du bien de temps en temps.</p>
+<h4>Les sites officiels (de l'université) ?</h4>
+<ul>
+<li>Dokeos, la ou tous les profs déposent des documents : <a href="http://formation.u-psud.fr/">http://formation.u-psud.fr/</a></li>
+<li>Zimbra, ou récuperer vos mails u-psud (si vous ne les envoyez pas automatiquement sur votre mail perso) : <a href="https://zimbra.u-psud.fr/">https://zimbra.u-psud.fr/</a>
+C'est à peu prés les deux seuls que l'on utilise ici, bien que Cécile ait à un moment voulu pousser le karuta, une sorte de portfolio en ligne : <a href="http://portfolio.villebon-charpak.fr:8080/karuta/application/htm/karuta.htm">http://portfolio.villebon-charpak.fr:8080/karuta/application/htm/karuta.htm</a></li>
+</ul>
+<h4>Pour les devoirs</h4>
+<ul>
+<li><a href="https://www.wolframalpha.com/">Wolfram|Alpha</a> vous permet de calculer des formules compliquées et vous donne parfois des solutions étapes par étapes.</li>
+<li>Un bon correcteur (payant, mais je suis sur que quelqu'un pourra trouver une version... gratuite ;) ) serait Antidote, sinon utilisez <a href="https://www.grammarly.com/">Grammarly (anglais)</a> ou <a href="https://bonpatron.com/">Bon Patron (français)</a></li>
+</ul>
+<h4>Pour les gens qui prennent des notes sur leur ordi</h4>
+<p>J'en fait partir, et je dois avouer que j'adore vraiment pouvoir retrouver mes documents facilement (je perds tout ce qui est papier). Malgré tout, si je peux conseiller quelques trucs :</p>
+<ul>
+<li><p>Au moins au début, créez vous une session séparée sur votre ordi ou vous n'etes pas connecté à vos sites distracteurs préférés (Facebook, Discord, Messenger, Gmail, ...) : beaucoup moins de risques de divaguer</p>
+</li>
+<li><p>Si l'envie vous tente, utilisez Markdown pour prendre des notes : c'est un moyen simple de prendre des notes (voir <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">ici</a> pour la référence rapide)</p>
+</li>
+<li><p>A moins que vous soyez très bon en LaTeX, oubliez la prise de notes sur ordi en maths</p>
+</li>
+</ul>
+<h4>A la fin de toute prise de notes</h4>
+<p>Je répéte les conseils de Jeanne et Martine (et Sébastien Martinez) :</p>
+<ul>
+<li><p>Prenez 5 minutes pour résumer en deux-trois phrases le contenu du cours et, si possible, faites un dessin/mindmap/flowchart du cours plus tard dans la journée.</p>
+</li>
+<li><p>Ou pas, parce que certains n'aiment vraiment pas la méthode, et trouvent qu'il s'agit d'une perte de temps. A vous de voir, vous êtes grands.</p>
+</li>
+</ul>
+<h3>Les travaux à rendre</h3>
+<h4>Des conseils ?</h4>
+<ul>
+<li>Prenez de l'avance</li>
+<li>Relisez (tous ensemble si groupe) l'intégralité du devoir avant de l'envoyer (comptez jusqu'a 4 heures dans le cas d'un rapport d'APP, je dis ca je dis rien)</li>
+<li>La formule des retards (un tiers des points en moins par jour de retard) existe, mais je ne l'ai jamais vu être respectée par les profs (<strong>mais il y a bien un malus par contre!</strong>)</li>
+<li>Ne vous compliquez pas la vie plus que ça sur le design </li>
+<li>Les fautes d'orthographe coûtent cher dans un devoir.</li>
+<li>N'hésitez pas à travailler ensemble dans une salle à l'institut</li>
+<li>Vérifiez sur les vidéo-projecteurs que vos dispos s'affichent bien (les couleurs sont souvent beaucoup plus mauvaises vues du bout de la salle, avec le beau contre jour)</li>
+<li>N'hésitez pas à (ab)user des schémas pour faciliter la compréhension</li>
+</ul>
+<ul>
+<li>Pensez à demander de l'aide à vos collègues ou aux promos précédentes si vous ne comprenez pas quelque chose</li>
+</ul>
+<h4>Comment se relire ?</h4>
+<p>C'est plutôt simple au final : sur un projecteur, à l'institut, vérifiez que</p>
+<ul>
+<li>Tout s'affiche bien (mise en page, couleurs)</li>
+<li>On ne voit pas de fautes d'orthographe</li>
+<li>Chaque affirmation contient une source</li>
+<li>Chaque figure dispose d'une légende (et d'une source, si applicable)</li>
+<li>Le contenu suit un fil logique, facile à comprendre</li>
+</ul>
+<p>Dans le cadre d'un diapo, je recommande solidement le cours de L2 sur les slides (Marc Chauvet) (Je suis sympa, voici un lien vers les slides <a href="../vos-etudes/2018-03-07-preparer-des-presentations-slides-overview.pdf">ici</a>)</p>
+<h4>L'email à envoyer, je mets quoi ?</h4>
+<p>On envoie l'email à la/les personnes principales (celles qui vont évaluer), et on mets en copie les membres de son groupe.</p>
+<p>On oublie pas la piece jointe, que l'on nome ainsi (comme le sujet) <code>[N° GROUPE]-[Date]-[Type] - [sujet].ext</code> (Par exemple <code>4-231018-Diapo - APP_Les vacances.pdf</code>)</p>
+<p>On envoie si possible un PDF en plus du document éditable</p>
+<p>Si les pièces jointes sont trop lourdes, utilisez <a href="https://wetransfer.com/">WeTransfer</a> ou <a href="https://transfert.u-psud.fr/">le service d'u-psud</a></p>
+<p>On oublie pas de remercier, et on envoie une bonne poignée de minutes avant, afin d’être sur que ca part sans problèmes (vérifiez que vous ne recevez pas de réponses du serveur de mail disant que l'adresse du destinataire est fausse)</p>
+<h3>Le projet charpak</h3>
+<h4>C'est quoi ?</h4>
+<p>Je dirais rien!</p>
+<h4>Comment bien choisir son sujet ?</h4>
+<p>Rien de rien!</p>
+<h4>... Sérieusement ? :(</h4>
+<p>Si tu as vraiment une question, n'hésite pas à passer voir les L2/L3, on mords pas
+On dit rien parce que c'est plus sympa de découvrir petit à petit comment ça se passe à Charpak</p>
+
+
+  </div>
+  <footer>
+    Fait avec amour par Arthur (Promo 2019) en cette belle nuit du 10 septembre 2018, et peut-etre amélioré par la suite.
+  </footer>
+</body>
