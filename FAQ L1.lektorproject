@@ -1,0 +1,4 @@
+[project]
+name = FAQ L1
+[servers.ghpages]
+target = ghpages+https://paris-ci/FAQ-L1.git

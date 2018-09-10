@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title>{% block title %}Bienvenue sur la{% endblock %} — FAQ L1</title>
+<body>
+  <header>
+    <h1>FAQ L1</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li{% if this._path == '/' %} class="active"{% endif
+          %}><a href="{{ '/'|url }}">Accueil</a></li>
+        {% for href, title in [
+          ['/vie-etudiante', 'La vie étudiante'],
+          ['/vos-etudes', 'Vos études']
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    Fait avec amour par Arthur (Promo 2019) en cette belle nuit du 10 septembre 2018, et peut-etre amélioré par la suite.
+  </footer>
+</body>
