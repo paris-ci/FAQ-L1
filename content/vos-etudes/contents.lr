@@ -50,7 +50,7 @@ Je sais, ça fait mal.
 
 #### La ponctualité ?
 
-Soyez ponctuels. Rien de spécial à dire la dessus, mais si Martine dit Lundi 23h59, Martine sera devant ses mails à cette heure là (Martine ne dors jamais)
+Soyez ponctuels. Rien de spécial à dire la dessus, mais si Martine dit Lundi 23h59, Martine sera devant ses mails à cette heure là (Martine ne dort jamais)
 
 #### Où travailler ?
 
@@ -63,7 +63,7 @@ Voir aussi au dessus "Quels outils utiliser lors d'un travail en groupe ?"
 #### Comment gérer une bibliographie ?
 
 - Pour trouver des articles scientifiques : [Google Scholar](https://scholar.google.fr/)
-- Pour avoir accès (facilement) au PDF des articles (sans payer, oui c'est illégal mais tout le monde le fait) : [Sci-Hub](https://whereisscihub.now.sh/) (lien direct : https://whereisscihub.now.sh/go) ou [arXiv](https://arxiv.org/), accessible depuis Scholar
+- Pour avoir accès (facilement) au PDF des articles (sans payer, oui c'est illégal mais tout le monde le fait) : [Sci-Hub](https://whereisscihub.now.sh/) (lien direct : https://whereisscihub.now.sh/go) ou [arXiv](https://arxiv.org/), gratuit et légal, donc à préférer, accessible depuis Scholar. Il y a aussi d'autres moyens, renseignez-vous auprès de Franck ou Martine, et de la BU.
 - Et pour les livres et autres cours [LibGen](http://gen.lib.rus.ec/)
 - Balancez tous vos PDFs dans [Mendeley](https://www.mendeley.com/) et laissez-le vous générer la bibliographie
 
@@ -106,19 +106,19 @@ De loin le plus important, ce site [la](http://www.retourdemartine.free.fr/creat
 
 - Dokeos, là où tous les profs déposent des documents : http://formation.u-psud.fr/
 - Zimbra, où récuperer vos mails u-psud (si vous ne les envoyez pas automatiquement sur votre mail perso) : https://zimbra.u-psud.fr/
- C'est à peu prés les deux seuls que l'on utilise ici, bien que Cécile ait à un moment voulu pousser le karuta, une sorte de portfolio en ligne : http://portfolio.villebon-charpak.fr:8080/karuta/application/htm/karuta.htm
+- Karuta, votre portfolio en ligne sur lequel vous gardez une trace des compétences que vous réalisez, qui compte dans vos notes : http://portfolio.villebon-charpak.fr:8080/karuta/application/htm/karuta.htm
 
 #### Pour les devoirs
 
 - [Wolfram|Alpha](https://www.wolframalpha.com/) vous permet de calculer des formules compliquées et vous donne parfois des solutions étapes par étapes.
-- Un bon correcteur (payant, mais je suis sur que quelqu'un pourra trouver une version... gratuite ;) ) serait Antidote, sinon utilisez [Grammarly (anglais)](https://www.grammarly.com/) ou [Bon Patron (français)](https://bonpatron.com/)
+- Un bon correcteur (payant) serait Antidote, sinon utilisez [Grammarly (anglais)](https://www.grammarly.com/) ou [Bon Patron (français)](https://bonpatron.com/)
 - Tant que l'on est dans les langues, pour traduire Francais <->  Anglais, le meilleur traducteur disponible est [DeepL](https://www.deepl.com/translator). Il marche super bien pour les articles scientifiques, mais aussi pour les devoirs d'anglais.
 
 #### Pour les gens qui prennent des notes sur leur ordi 
 
 J'en fait partie, et je dois avouer que j'adore vraiment pouvoir retrouver mes documents facilement (je perds tout ce qui est papier). Malgré tout, si je peux conseiller quelques trucs :
 
-- Au moins au début, créez-vous une session séparée sur votre ordi ou vous n'êtes pas connecté à vos sites distracteurs préférés (Facebook, Discord, Messenger, Gmail, ...) : beaucoup moins de risques de divaguer
+- Au moins au début, créez-vous une session séparée sur votre ordi où vous n'êtes pas connecté à vos sites distracteurs préférés (Facebook, Discord, Messenger, Gmail, ...) : beaucoup moins de risques de divaguer
 
 - Si l'envie vous prend, utilisez Markdown pour prendre des notes : c'est un moyen simple de prendre des notes (voir [ici](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) pour la référence rapide)
 
@@ -170,7 +170,7 @@ Dans le cadre d'un diapo, je recommande solidement le cours de L2 sur les slides
 
 #### L'email à envoyer, je mets quoi ?
 
-On envoie l'email à la/les personnes principales (celles qui vont évaluer), et on mets en copie les membres de son groupe.
+On envoie l'email à la/les personnes principales (celles qui vont évaluer), et on met en copie les membres de son groupe.
 
 On n'oublie pas la piece jointe, que l'on nomme ainsi (comme le sujet) `[N° GROUPE]-[Date]-[Type] - [sujet].ext` (Par exemple `4-231018-Diapo - APP_Les vacances.pdf`)
 
@@ -192,7 +192,7 @@ Rien de rien!
 
 #### ... Sérieusement ? :(
 
-Si tu as vraiment une question, n'hésite pas à passer voir les L2/L3, on mord pas
+Si tu as vraiment une question, n'hésite pas à passer voir les L2/L3, on mord pas.
 On dit rien parce que c'est plus sympa de découvrir petit à petit comment ça se passe à Charpak
 
 #### Mais meme pas un petit conseil ?
@@ -216,6 +216,7 @@ Bon aller :
 - En chimie : RIP (sinon les anciens STL de ta classe, ils sont bons en bio et chimie)
 - En ingé : Les anciens STI2D/S-SI
 - En physique : Rien à faire :(
+- Général : **Les tuteurs polytechniciens**. Ils savent tout, mais il faut aller leur demander!
 
 #### Comment imprimer quelque chose ?
 
@@ -234,17 +235,18 @@ Je m'en suis jamais servi, mais ça peut être pratique pour les recherches bibl
 - Jeanne : Prof de maths
 - Jean : Prof de maths
 - Tony : Prof de maths/info
-- Joel : Ancien prof de maths
+- Alain : Prof de maths
+- Joël : Ancien prof de maths/info
 - Cyril : Prof de Physique
 - Cathy : Prof d'anglais
 - Nardjis : Ancienne prof de bio
-- Martine : Prof de bio, responsable des L1
-- Cécile : Responsable des L2/L3, gestion des profs et emplois du temps (fait aussi un cours de traitement de l'eau)
+- Martine : Prof de bio, responsable des étudiants
+- Cécile : Gestion des profs et emplois du temps (fait aussi un cours de traitement de l'eau)
 - Sabrina : À l'administration : La sauveuse de l'Humanité! 
-- Marie-Ange : Aide Sabrina (et la remplace pendant son congé maternité)
-- Bénédicte : Directrice de l'institut
-- Franck : Directeur des formations
-- Jade : Un des tuteurs de polytechnique
+- Marie-Ange : Gestion du matériel et du Jazz
+- Bénédicte : Directrice de l'institut, référence pour le projet pro et les bourses.
+- Franck : Directeur des formations, gestion des projets professionnels des étudiants
+- Jad : Un des tuteurs de polytechnique
 
 
 Et bien sur : vos tuteurs
